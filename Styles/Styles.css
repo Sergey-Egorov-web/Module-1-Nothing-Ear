@@ -1,13 +1,50 @@
 body {
-  background: white;
-  width: 1400px;
+  background: #000000;
+  /* width: 1400px; */
+  width: 100%;
   /* height: 7272px; */
   margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+}
+.navlinks {
+  width: 603px;
+  height: 30px;
+  margin: 44px auto 0 auto;
+  letter-spacing: -0.03em;
+}
+.navlink {
+  display: inline;
+  margin-right: 43px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+.navlink:nth-last-child(1) {
+  margin-right: 0px;
+}
+.navlink:hover {
+  border-bottom: 1px solid #ff25c2;
+  opacity: 0.5;
+  color: #ff25c2;
 }
 
 main {
   width: 100%;
+  margin: 0 auto;
+  font-family: "Inter";
+  font-style: normal;
   background: #000000;
+}
+.presentation {
   margin: 0 auto;
 }
 
@@ -15,10 +52,7 @@ h1 {
   width: 919px;
   height: 156px;
   padding-top: 134px;
-  margin-left: 241px;
-  margin-bottom: 20px;
-  font-family: "Inter";
-  font-style: normal;
+  margin: 0 auto 20px auto;
   font-weight: 700;
   font-size: 150px;
   line-height: 133px;
@@ -32,10 +66,7 @@ h1 {
 .text-headphones {
   width: 430px;
   height: 103px;
-  margin-left: 485px;
-  margin-bottom: -33px;
-  font-family: "Inter";
-  font-style: normal;
+  margin: 0 auto -33px auto;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
@@ -47,15 +78,13 @@ h1 {
 .headphones {
   width: 819px;
   height: 840px;
-  margin-left: 293px;
-  margin-bottom: 70px;
+  margin: 0 auto 70px auto;
   background-image: url("../Recources/headphones.png");
 }
 .White {
   width: 1150px;
   height: 644px;
-  margin-left: 125px;
-  margin-bottom: 80px;
+  margin: 0 auto 80px auto;
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.3) 0%,
@@ -68,9 +97,7 @@ h1 {
   box-sizing: border-box;
   width: 1150px;
   height: 644px;
-  margin-left: 125px;
-  margin-bottom: 150px;
-
+  margin: 0 auto 80px auto;
   background: url("../Recources/blackphone.png");
   border: 1px solid #ffffff;
   border-radius: 30px;
@@ -81,8 +108,6 @@ h1 {
   padding-left: 50px;
   padding-top: 50px;
   margin-bottom: 149px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 93.52%;
@@ -96,15 +121,11 @@ h1 {
   padding-left: 50px;
   padding-top: 50px;
   margin-bottom: 149px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 93.52%;
   /* or 56px */
-
   letter-spacing: -0.05em;
-
   color: #ffffff;
 }
 .box-white {
@@ -158,57 +179,54 @@ h1 {
 }
 
 .face-to-face {
-  width: 1400px;
+  /* width: 1400px; */
+  width: 100%;
   height: 786px;
   background: url("../Recources/mirror-men.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 h2 {
   width: 560px;
   height: 148px;
   padding-top: 190px;
-  margin-left: 421px;
-  font-family: "Inter";
-  font-style: normal;
+  /* margin-left: 421px; */
+  margin: 0 auto;
   font-weight: 700;
   font-size: 100px;
   line-height: 73.52%;
   /* or 74px */
   text-align: center;
   letter-spacing: -0.06em;
-
   color: #ff25c2;
 }
 .text-face-to-face {
   width: 671px;
   height: 90px;
-  margin-left: 365px;
-  margin-top: 39px;
-
-  font-family: "Inter";
-  font-style: normal;
+  margin: 39px auto 0 auto;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
   text-align: center;
   letter-spacing: -0.03em;
-
   color: #ffffff;
 }
 .workout {
   width: 676px;
+  margin: 0 auto;
+}
+.header-workout {
+  width: 676px;
   height: 222px;
   padding-top: 150px;
-  margin-left: 362px;
-  margin-bottom: 80px;
-  font-family: "Inter";
-  font-style: normal;
+  margin: 0 auto 80px auto;
   font-weight: 700;
   font-size: 100px;
   line-height: 73.52%;
   /* or 74px */
   text-align: center;
   letter-spacing: -0.06em;
-
   color: #ff25c2;
 }
 
@@ -239,8 +257,6 @@ h2 {
   background-position: 50%;
 } */
 .text-description {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
@@ -249,21 +265,22 @@ h2 {
   color: #ffffff;
 }
 .clear-voice {
-  width: 1400px;
+  width: 100%;
   height: 1040px;
   margin: 0 auto;
   background: url(../Recources/red\ hair\ girl.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 .text-clear-voice {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
   width: 1150px;
   height: 370px;
+  margin: 0 auto 40px auto;
+  font-weight: 700;
   font-size: 100px;
   line-height: 73.52%;
   padding-top: 130px;
-  margin-bottom: 40px;
   text-align: center;
   letter-spacing: -0.06em;
 
@@ -272,13 +289,27 @@ h2 {
 .text-advanced-algorithms {
   width: 942px;
   height: 200px;
-  font-family: "Inter";
-  font-style: normal;
+  margin: 0 auto 60px auto;
   font-weight: 700;
   font-size: 45px;
   line-height: 90%;
   text-align: center;
   letter-spacing: -0.06em;
-
   color: #ffffff;
+}
+.btn-buy {
+  display: block;
+  width: 866px;
+  height: 110px;
+  margin: 0 auto;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 100px;
+  letter-spacing: -0.03em;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 110px;
+  text-transform: uppercase;
 }
